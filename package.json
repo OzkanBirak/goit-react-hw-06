@@ -28,6 +28,8 @@
   },
   
   "dependencies": {
+
+  "vite": "^4.x.x",
   
     
   "@reduxjs/toolkit": "^2.8.2",
