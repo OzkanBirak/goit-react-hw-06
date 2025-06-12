@@ -1,0 +1,43 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name {
+  font-weight: 600;
+  color: #333;
+  font-size: 16px;
+}
+
+.number {
+  color: #666;
+  font-size: 14px;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+}
